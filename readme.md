@@ -1,0 +1,1 @@
+Online Moviestore app built using Ruby on Rails and MySQL as the database.
