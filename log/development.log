@@ -286,3 +286,620 @@ Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +000
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:38:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 4018ms (Views: 3974.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 16:38:51 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:38:52 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:48:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 648ms (Views: 605.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:48:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mMovie Load (0.8ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Godfather' AND `movies`.`release_year` = 1972 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.' AND `movies`.`imdb_id` = 'tt0068646' AND `movies`.`poster_url` = 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', 'tt0068646', 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg', 24.99, 1972, 'The Godfather', '2014-11-18 16:49:31')
+  [1m[36m (17.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Wild Strawberries' AND `movies`.`release_year` = 1957 AND `movies`.`price` = 20.99 AND `movies`.`description` = 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.' AND `movies`.`imdb_id` = 'tt0050986' AND `movies`.`poster_url` = 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.', 'tt0050986', 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg', 20.99, 1957, 'Wild Strawberries', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Shawshank Redemption' AND `movies`.`release_year` = 1994 AND `movies`.`price` = 26.99 AND `movies`.`description` = 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.' AND `movies`.`imdb_id` = 'tt0111161' AND `movies`.`poster_url` = 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'tt0111161', 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg', 26.99, 1994, 'The Shawshank Redemption', '2014-11-18 16:49:31')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'One Flew Over the Cuckoo\'s Nest' AND `movies`.`release_year` = 1975 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.' AND `movies`.`imdb_id` = 'tt0073486' AND `movies`.`poster_url` = 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.', 'tt0073486', 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 22.99, 1975, 'One Flew Over the Cuckoo\'s Nest', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Dark Knight' AND `movies`.`release_year` = 2008 AND `movies`.`price` = 14.99 AND `movies`.`description` = 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.' AND `movies`.`imdb_id` = 'tt0468569' AND `movies`.`poster_url` = 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.', 'tt0468569', 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg', 14.99, 2008, 'The Dark Knight', '2014-11-18 16:49:31')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'It\'s a Wonderful Life' AND `movies`.`release_year` = 1946 AND `movies`.`price` = 15.99 AND `movies`.`description` = 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.' AND `movies`.`imdb_id` = 'tt0038650' AND `movies`.`poster_url` = 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.', 'tt0038650', 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg', 15.99, 1946, 'It\'s a Wonderful Life', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Kill Bill' AND `movies`.`release_year` = 2003 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.' AND `movies`.`imdb_id` = 'tt0266697' AND `movies`.`poster_url` = 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.', 'tt0266697', 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg', 13.99, 2003, 'Kill Bill', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Seven Samurai' AND `movies`.`release_year` = 1954 AND `movies`.`price` = 19.99 AND `movies`.`description` = 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.' AND `movies`.`imdb_id` = 'tt0047478' AND `movies`.`poster_url` = 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.', 'tt0047478', 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg', 19.99, 1954, 'Seven Samurai', '2014-11-18 16:49:31')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Apocalypse Now' AND `movies`.`release_year` = 1979 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.' AND `movies`.`imdb_id` = 'tt0078788' AND `movies`.`poster_url` = 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.', 'tt0078788', 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 24.99, 1979, 'Apocalypse Now', '2014-11-18 16:49:31')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Blood Diamond' AND `movies`.`release_year` = 2006 AND `movies`.`price` = 17.99 AND `movies`.`description` = 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.' AND `movies`.`imdb_id` = 'tt0450259' AND `movies`.`poster_url` = 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.', 'tt0450259', 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg', 17.99, 2006, 'Blood Diamond', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Modern Times' AND `movies`.`release_year` = 1936 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.' AND `movies`.`imdb_id` = 'tt0027977' AND `movies`.`poster_url` = 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.', 'tt0027977', 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg', 13.99, 1936, 'Modern Times', '2014-11-18 16:49:31')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'A Beautiful Mind' AND `movies`.`release_year` = 2001 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.' AND `movies`.`imdb_id` = 'tt0268978' AND `movies`.`poster_url` = 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:49:31', 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.', 'tt0268978', 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg', 22.99, 2001, 'A Beautiful Mind', '2014-11-18 16:49:31')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 182ms (Views: 166.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:49:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Godfather' AND `movies`.`release_year` = 1972 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.' AND `movies`.`imdb_id` = 'tt0068646' AND `movies`.`poster_url` = 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', 'tt0068646', 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg', 24.99, 1972, 'The Godfather', '2014-11-18 16:55:22')
+  [1m[36m (51.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.9ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Wild Strawberries' AND `movies`.`release_year` = 1957 AND `movies`.`price` = 20.99 AND `movies`.`description` = 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.' AND `movies`.`imdb_id` = 'tt0050986' AND `movies`.`poster_url` = 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.', 'tt0050986', 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg', 20.99, 1957, 'Wild Strawberries', '2014-11-18 16:55:22')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.7ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Shawshank Redemption' AND `movies`.`release_year` = 1994 AND `movies`.`price` = 26.99 AND `movies`.`description` = 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.' AND `movies`.`imdb_id` = 'tt0111161' AND `movies`.`poster_url` = 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'tt0111161', 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg', 26.99, 1994, 'The Shawshank Redemption', '2014-11-18 16:55:22')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'One Flew Over the Cuckoo\'s Nest' AND `movies`.`release_year` = 1975 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.' AND `movies`.`imdb_id` = 'tt0073486' AND `movies`.`poster_url` = 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.', 'tt0073486', 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 22.99, 1975, 'One Flew Over the Cuckoo\'s Nest', '2014-11-18 16:55:22')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Dark Knight' AND `movies`.`release_year` = 2008 AND `movies`.`price` = 14.99 AND `movies`.`description` = 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.' AND `movies`.`imdb_id` = 'tt0468569' AND `movies`.`poster_url` = 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.', 'tt0468569', 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg', 14.99, 2008, 'The Dark Knight', '2014-11-18 16:55:22')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'It\'s a Wonderful Life' AND `movies`.`release_year` = 1946 AND `movies`.`price` = 15.99 AND `movies`.`description` = 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.' AND `movies`.`imdb_id` = 'tt0038650' AND `movies`.`poster_url` = 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.', 'tt0038650', 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg', 15.99, 1946, 'It\'s a Wonderful Life', '2014-11-18 16:55:22')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Kill Bill' AND `movies`.`release_year` = 2003 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.' AND `movies`.`imdb_id` = 'tt0266697' AND `movies`.`poster_url` = 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.', 'tt0266697', 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg', 13.99, 2003, 'Kill Bill', '2014-11-18 16:55:22')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Seven Samurai' AND `movies`.`release_year` = 1954 AND `movies`.`price` = 19.99 AND `movies`.`description` = 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.' AND `movies`.`imdb_id` = 'tt0047478' AND `movies`.`poster_url` = 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.', 'tt0047478', 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg', 19.99, 1954, 'Seven Samurai', '2014-11-18 16:55:22')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Apocalypse Now' AND `movies`.`release_year` = 1979 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.' AND `movies`.`imdb_id` = 'tt0078788' AND `movies`.`poster_url` = 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.', 'tt0078788', 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 24.99, 1979, 'Apocalypse Now', '2014-11-18 16:55:22')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Blood Diamond' AND `movies`.`release_year` = 2006 AND `movies`.`price` = 17.99 AND `movies`.`description` = 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.' AND `movies`.`imdb_id` = 'tt0450259' AND `movies`.`poster_url` = 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.', 'tt0450259', 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg', 17.99, 2006, 'Blood Diamond', '2014-11-18 16:55:22')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Modern Times' AND `movies`.`release_year` = 1936 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.' AND `movies`.`imdb_id` = 'tt0027977' AND `movies`.`poster_url` = 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.', 'tt0027977', 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg', 13.99, 1936, 'Modern Times', '2014-11-18 16:55:22')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'A Beautiful Mind' AND `movies`.`release_year` = 2001 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.' AND `movies`.`imdb_id` = 'tt0268978' AND `movies`.`poster_url` = 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 16:55:22', 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.', 'tt0268978', 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg', 22.99, 2001, 'A Beautiful Mind', '2014-11-18 16:55:22')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:55:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 708ms (Views: 655.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 16:55:44 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 17:03:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 403ms (Views: 350.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 17:03:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 24 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0068646' AND `movies`.`imdb_id` = 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0068646', 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg', 0.0, 24, '2014-11-18 17:04:09')
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.8ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 20 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0050986' AND `movies`.`imdb_id` = 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0050986', 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg', 0.0, 20, '2014-11-18 17:04:09')
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 26 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0111161' AND `movies`.`imdb_id` = 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0111161', 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg', 0.0, 26, '2014-11-18 17:04:09')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 22 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0073486' AND `movies`.`imdb_id` = 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0073486', 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 0.0, 22, '2014-11-18 17:04:09')
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 14 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0468569' AND `movies`.`imdb_id` = 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0468569', 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg', 0.0, 14, '2014-11-18 17:04:09')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 15 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0038650' AND `movies`.`imdb_id` = 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0038650', 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg', 0.0, 15, '2014-11-18 17:04:09')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 13 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0266697' AND `movies`.`imdb_id` = 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0266697', 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg', 0.0, 13, '2014-11-18 17:04:09')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 19 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0047478' AND `movies`.`imdb_id` = 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0047478', 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg', 0.0, 19, '2014-11-18 17:04:09')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 24 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0078788' AND `movies`.`imdb_id` = 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0078788', 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 0.0, 24, '2014-11-18 17:04:09')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 17 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0450259' AND `movies`.`imdb_id` = 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0450259', 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg', 0.0, 17, '2014-11-18 17:04:09')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 13 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0027977' AND `movies`.`imdb_id` = 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0027977', 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg', 0.0, 13, '2014-11-18 17:04:09')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` IS NULL AND `movies`.`release_year` = 22 AND `movies`.`price` = 0.0 AND `movies`.`description` = 'tt0268978' AND `movies`.`imdb_id` = 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg' AND `movies`.`poster_url` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `price`, `release_year`, `updated_at`) VALUES ('2014-11-18 17:04:09', 'tt0268978', 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg', 0.0, 22, '2014-11-18 17:04:09')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[36m (148.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (330.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateMovies (20141117201320)
+  [1m[35m (238.0ms)[0m  CREATE TABLE `movies` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `release_year` int(11), `price` float, `description` text, `imdb_id` varchar(255), `poster_url` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20141117201320')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Godfather' AND `movies`.`release_year` = 1972 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.' AND `movies`.`imdb_id` = 'tt0068646' AND `movies`.`poster_url` = 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', 'tt0068646', 'MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX214_AL_.jpg', 24.99, 1972, 'The Godfather', '2014-11-18 17:09:02')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Wild Strawberries' AND `movies`.`release_year` = 1957 AND `movies`.`price` = 20.99 AND `movies`.`description` = 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.' AND `movies`.`imdb_id` = 'tt0050986' AND `movies`.`poster_url` = 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.', 'tt0050986', 'MV5BMTQyNzQwMjg0Ml5BMl5BanBnXkFtZTYwMTgyMDg4._V1_SY317_CR3,0,214,317_AL_.jpg', 20.99, 1957, 'Wild Strawberries', '2014-11-18 17:09:02')
+  [1m[36m (33.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Shawshank Redemption' AND `movies`.`release_year` = 1994 AND `movies`.`price` = 26.99 AND `movies`.`description` = 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.' AND `movies`.`imdb_id` = 'tt0111161' AND `movies`.`poster_url` = 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'tt0111161', 'MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX214_AL_.jpg', 26.99, 1994, 'The Shawshank Redemption', '2014-11-18 17:09:02')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'One Flew Over the Cuckoo\'s Nest' AND `movies`.`release_year` = 1975 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.' AND `movies`.`imdb_id` = 'tt0073486' AND `movies`.`poster_url` = 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'Upon admittance to a mental institution, a brash rebel rallies the patients to take on the oppressive head nurse.', 'tt0073486', 'MV5BMTk5OTA4NTc0NF5BMl5BanBnXkFtZTcwNzI5Mzg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 22.99, 1975, 'One Flew Over the Cuckoo\'s Nest', '2014-11-18 17:09:02')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'The Dark Knight' AND `movies`.`release_year` = 2008 AND `movies`.`price` = 14.99 AND `movies`.`description` = 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.' AND `movies`.`imdb_id` = 'tt0468569' AND `movies`.`poster_url` = 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (12.7ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'When Batman, Gordon and Harvey Dent launch an assault on the mob, they let the clown out of the box, the Joker, bent on turning Gotham on itself and bringing any heroes down to his level.', 'tt0468569', 'MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg', 14.99, 2008, 'The Dark Knight', '2014-11-18 17:09:02')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.6ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'It\'s a Wonderful Life' AND `movies`.`release_year` = 1946 AND `movies`.`price` = 15.99 AND `movies`.`description` = 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.' AND `movies`.`imdb_id` = 'tt0038650' AND `movies`.`poster_url` = 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'An angel helps a compassionate but despairingly frustrated businessman by showing what life would have been like if he never existed.', 'tt0038650', 'MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_SX214_AL_.jpg', 15.99, 1946, 'It\'s a Wonderful Life', '2014-11-18 17:09:02')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Kill Bill' AND `movies`.`release_year` = 2003 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.' AND `movies`.`imdb_id` = 'tt0266697' AND `movies`.`poster_url` = 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.', 'tt0266697', 'MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX214_AL_.jpg', 13.99, 2003, 'Kill Bill', '2014-11-18 17:09:02')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Seven Samurai' AND `movies`.`release_year` = 1954 AND `movies`.`price` = 19.99 AND `movies`.`description` = 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.' AND `movies`.`imdb_id` = 'tt0047478' AND `movies`.`poster_url` = 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.', 'tt0047478', 'MV5BNzg5Mzk5Nzc0NF5BMl5BanBnXkFtZTcwNjg3MDQzMQ@@._V1_SY317_CR5,0,214,317_AL_.jpg', 19.99, 1954, 'Seven Samurai', '2014-11-18 17:09:02')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Apocalypse Now' AND `movies`.`release_year` = 1979 AND `movies`.`price` = 24.99 AND `movies`.`description` = 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.' AND `movies`.`imdb_id` = 'tt0078788' AND `movies`.`poster_url` = 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'During the U.S.-Viet Nam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.', 'tt0078788', 'MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_SY317_CR12,0,214,317_AL_.jpg', 24.99, 1979, 'Apocalypse Now', '2014-11-18 17:09:02')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Blood Diamond' AND `movies`.`release_year` = 2006 AND `movies`.`price` = 17.99 AND `movies`.`description` = 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.' AND `movies`.`imdb_id` = 'tt0450259' AND `movies`.`poster_url` = 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.', 'tt0450259', 'MV5BMTY5MTYyNjkwNV5BMl5BanBnXkFtZTcwODE3MTI0MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg', 17.99, 2006, 'Blood Diamond', '2014-11-18 17:09:02')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'Modern Times' AND `movies`.`release_year` = 1936 AND `movies`.`price` = 13.99 AND `movies`.`description` = 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.' AND `movies`.`imdb_id` = 'tt0027977' AND `movies`.`poster_url` = 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.', 'tt0027977', 'MV5BMjMwMDA5NzEwOF5BMl5BanBnXkFtZTcwMzgwNDg3OA@@._V1_SY317_CR5,0,214,317_AL_.jpg', 13.99, 1936, 'Modern Times', '2014-11-18 17:09:02')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  `movies`.* FROM `movies`  WHERE `movies`.`title` = 'A Beautiful Mind' AND `movies`.`release_year` = 2001 AND `movies`.`price` = 22.99 AND `movies`.`description` = 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.' AND `movies`.`imdb_id` = 'tt0268978' AND `movies`.`poster_url` = 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `movies` (`created_at`, `description`, `imdb_id`, `poster_url`, `price`, `release_year`, `title`, `updated_at`) VALUES ('2014-11-18 17:09:02', 'After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.', 'tt0268978', 'MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg', 22.99, 2001, 'A Beautiful Mind', '2014-11-18 17:09:02')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.6ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 172ms (Views: 158.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:14 +0000
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-11-18 17:09:15 +0000
