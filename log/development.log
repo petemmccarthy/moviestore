@@ -230,3 +230,59 @@ ActionView::Template::Error (undefined method `edit_movie_path' for #<#<Class:0x
   Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
   Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:23:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (22.4ms)
+Completed 500 Internal Server Error in 107ms
+
+ActionView::Template::Error (undefined method `edit_movie_path' for #<#<Class:0x00000105b7a380>:0x00000105b799d0>):
+    23:         <td><%= movie.imdb_id %></td>
+    24:         <td><%= movie.poster_url %></td>
+    25:         <td><%= link_to 'Show', movie %></td>
+    26:         <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
+    27:         <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    28:       </tr>
+    29:     <% end %>
+  app/views/movies/index.html.erb:26:in `block in _app_views_movies_index_html_erb__2285922416039738255_2195545340'
+  app/views/movies/index.html.erb:17:in `_app_views_movies_index_html_erb__2285922416039738255_2195545340'
+
+
+  Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Peter/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 16:28:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.6ms)[0m  SELECT `movies`.* FROM `movies`
+  Rendered movies/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 2083ms (Views: 2030.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 16:28:08 +0000
