@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %>
+    </title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -14,6 +16,7 @@
   <body>
 
     <%= render "layouts/header" %>
+
     <%= render "layouts/alerts" %>
 
     <div id="main-content" class="row full-min-height">
@@ -27,5 +30,7 @@
     </footer>
 
     <%= javascript_include_tag "application" %>
+
   </body>
+
 </html>
