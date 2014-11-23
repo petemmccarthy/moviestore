@@ -25,9 +25,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # user authentication
 gem 'devise'
 # Advanced key-value store
-gem 'redis', '~> 2.8.17'
+gem 'redis', '~> 3.1.0'
 # Redis driver
-gem 'hiredis', '~> 0.4.5'
+gem 'hiredis', '~> 0.5.2'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
