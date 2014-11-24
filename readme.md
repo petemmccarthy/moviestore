@@ -30,4 +30,5 @@ To use
 git clone https://github.com/petermccarthy49/moviestore.git
 
 $ redis-server
+
 $ rails s
