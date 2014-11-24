@@ -17,3 +17,17 @@ Save credit card details: Users can associate their credit cards with their acco
 Manage credit cards: Extend payment process features by providing the ability to add and remove credit cards and choose between them when checking out.
 
 Subscription plans: Provide several subscription plans for users, allowing them to upgrade, downgrade, and cancel said subscriptions.
+
+
+To be completed
+===============
+
+Payment function to be added.
+
+To use
+======
+
+git clone https://github.com/petermccarthy49/moviestore.git
+
+$ redis-server
+$ rails s
