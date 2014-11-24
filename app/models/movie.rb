@@ -9,7 +9,7 @@ class Movie < ActiveRecord::Base
   end
 
   def cart_action(current_user_id)
-    if $redis.smember "cart#{current_user_id}", id
+    if $redis.sismember "cart#{current_user_id}", id
       "Remove from"
     else
       "Add to"
