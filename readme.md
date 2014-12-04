@@ -1,7 +1,7 @@
 MovieStore
 ==========
 
-Online Moviestore app built using Ruby on Rails and MySQL as the database.
+Online Moviestore app built with Ruby on Rails and using MySQL as the database.
 
 Main Features to include:
 -------------------------
